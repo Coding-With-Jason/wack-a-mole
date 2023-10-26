@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>a/A Whack A Mole</title>
+    <link rel="stylesheet" type="text/css" href="mole.css" />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="mole.js"></script>
+  </head>
+  <body>
+    <h1>a/A Whack A Mole</h1>
+
+    <!-- playing field -->
+    <div class="pf">
+      <!-- mole 1 -->
+      <div class="wgs">
+        <img
+          src="./img/mole-head.png"
+          alt=""
+          class="wgs__mole-head wgs__mole-head--hidden btn"
+        />
+        <div class="wgs__whacked-mole-particles btn-particles"></div>
+        <img src="./img/mole-hill.png" alt="" class="wgs__dirt-pile" />
+      </div>
+
+      <!-- mole 2 -->
+      <div class="wgs">
+        <img
+          src="./img/mole-head.png"
+          alt=""
+          class="wgs__mole-head wgs__mole-head--hidden btn"
+        />
+        <div class="wgs__whacked-mole-particles btn-particles"></div>
+        <img src="./img/mole-hill.png" alt="" class="wgs__dirt-pile" />
+      </div>
+
+      <!-- mole 3 -->
+      <div class="wgs">
+        <img
+          src="./img/mole-head.png"
+          alt=""
+          class="wgs__mole-head wgs__mole-head--hidden btn"
+        />
+        <div class="wgs__whacked-mole-particles btn-particles"></div>
+
+        <img src="./img/mole-hill.png" alt="" class="wgs__dirt-pile" />
+      </div>
+
+      <!-- mole 4 -->
+      <div class="wgs">
+        <img
+          src="./img/mole-head.png"
+          alt=""
+          class="wgs__mole-head wgs__mole-head--hidden btn"
+        />
+        <div class="wgs__whacked-mole-particles btn-particles"></div>
+
+        <img src="./img/mole-hill.png" alt="" class="wgs__dirt-pile" />
+      </div>
+
+      <!-- mole 5 -->
+      <div class="wgs">
+        <img
+          src="./img/mole-head.png"
+          alt=""
+          class="wgs__mole-head wgs__mole-head--hidden btn"
+        />
+        <div class="wgs__whacked-mole-particles btn-particles"></div>
+
+        <img src="./img/mole-hill.png" alt="" class="wgs__dirt-pile" />
+      </div>
+
+      <!-- mole 6 -->
+      <div class="wgs">
+        <img
+          src="./img/mole-head.png"
+          alt=""
+          class="wgs__mole-head wgs__mole-head--hidden btn"
+        />
+        <div class="wgs__whacked-mole-particles btn-particles"></div>
+
+        <img src="./img/mole-hill.png" alt="" class="wgs__dirt-pile" />
+      </div>
+
+      <!-- mole 7 -->
+      <div class="wgs">
+        <img
+          src="./img/mole-head.png"
+          alt=""
+          class="wgs__mole-head wgs__mole-head--hidden btn"
+        />
+        <div class="wgs__whacked-mole-particles btn-particles"></div>
+
+        <img src="./img/mole-hill.png" alt="" class="wgs__dirt-pile" />
+      </div>
+
+      <!-- mole 8 -->
+      <div class="wgs">
+        <img
+          src="./img/mole-head.png"
+          alt=""
+          class="wgs__mole-head wgs__mole-head--hidden btn"
+        />
+        <div class="wgs__whacked-mole-particles btn-particles"></div>
+
+        <img src="./img/mole-hill.png" alt="" class="wgs__dirt-pile" />
+      </div>
+
+      <!-- mole 9 -->
+      <div class="wgs">
+        <img
+          src="./img/mole-head.png"
+          alt=""
+          class="wgs__mole-head wgs__mole-head--hidden btn"
+        />
+        <div class="wgs__whacked-mole-particles btn-particles"></div>
+
+        <img src="./img/mole-hill.png" alt="" class="wgs__dirt-pile" />
+      </div>
+
+      <!-- mole 10 -->
+      <div class="wgs">
+        <img
+          src="./img/mole-head.png"
+          alt=""
+          class="wgs__mole-head wgs__mole-head--hidden btn"
+        />
+        <div class="wgs__whacked-mole-particles btn-particles"></div>
+
+        <img src="./img/mole-hill.png" alt="" class="wgs__dirt-pile" />
+      </div>
+
+      <!-- mole 11 -->
+      <div class="wgs">
+        <img
+          src="./img/mole-head.png"
+          alt=""
+          class="wgs__mole-head wgs__mole-head--hidden btn"
+        />
+        <div class="wgs__whacked-mole-particles btn-particles"></div>
+
+        <img src="./img/mole-hill.png" alt="" class="wgs__dirt-pile" />
+      </div>
+
+      <!-- mole 12 -->
+      <div class="wgs">
+        <img
+          src="./img/mole-head.png"
+          alt=""
+          class="wgs__mole-head wgs__mole-head--hidden btn"
+        />
+        <div class="wgs__whacked-mole-particles btn-particles"></div>
+
+        <img src="./img/mole-hill.png" alt="" class="wgs__dirt-pile" />
+      </div>
+    </div>
+    <!-- Game Scoreboard -->
+    <div class="sb">
+      <div class="sb__score-holder">
+        Score : <span class="sb__score">0</span>
+      </div>
+      <div class="sb__game-over sb__game-over--hidden">👾 Game Over ! 👾</div>
+      <div class="sb__mole-counter">
+        Moles : <span class="sb__moles">30</span>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div>
+        <p class="sources">
+          Built as part of
+          <a href="https://www.appacademy.io/course/app-academy-open"
+            target="_blank">appAcademy Open</a
+          >
+        </p>
+      </div>
+      <div>
+        <p class="signature">
+          <span class="accent"></span> by Jason Harrel
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+÷
